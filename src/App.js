@@ -5,7 +5,7 @@ import { Muestra } from './components/Main/ItemListContainer/ItemListContainer';
 function App() {
   return (
       <div>
-        <Navbar/>
+        <Navbar />
         <main>
           <Bienvenido greeting="AOLCC" />
           <Muestra/>
