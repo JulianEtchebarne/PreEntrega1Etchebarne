@@ -7,7 +7,7 @@ function App() {
       <div>
         <Navbar />
         <main>
-          <Bienvenido greeting="AOLCC" />
+          <Bienvenido greeting="AOLCC"/>
           <Muestra/>
         </main>
       </div> 
