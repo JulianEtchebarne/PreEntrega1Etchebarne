@@ -1,59 +1,52 @@
-.header_container{
-        height: 100%;
-        max-width: 100px;
-        margin: 0 auto;
-        padding-bottom: 100px;
-    }
+.header_container {
+  height: 100%;
+  max-width: 100px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
 
-header{
-    div{
-        display:flex;
-        justify-content: center;
+header {
+  div {
+    display: flex;
+    justify-content: center;
 
-        nav{
-            padding-top: 39px;
-            padding-bottom: 39px;
-            background-image: linear-gradient(to top, #121212, #0C0C0E);
-            position: fixed;
-            z-index: 1;
-            display: flex;
-            padding-right: 100%;
-            padding-left: 100%;
-            a{
-                text-align: center;
-                letter-spacing: 2px;
-                text-decoration: none;
-                color: white;
-                padding: 0 35px;
-                display: inline;
-                font-family: 'Roboto Slab', serif;
-                font-weight: 300;
-                font-size: 22px;
-            }a:nth-child(3){
-                margin-right: 300px;
-            }a:nth-child(6){
-                width: 250px;
-            }a:nth-child(1){
-                padding-left: 170px;
-            } 
-            
-        } 
+    nav {
+      padding-top: 39px;
+      padding-bottom: 39px;
+      background-image: linear-gradient(to top, #121212, #0c0c0e);
+      position: fixed;
+      z-index: 1;
+      display: flex;
+      padding-right: 100%;
+      padding-left: 100%;
+      a {
+        text-align: center;
+        letter-spacing: 2px;
+        text-decoration: none;
+        color: white;
+        padding: 0 35px;
+        display: inline;
+        font-family: "Roboto Slab", serif;
+        font-weight: 300;
+        font-size: 22px;
+      }
+      a:nth-child(3) {
+        margin-right: 300px;
+      }
+      a:nth-child(6) {
+        width: 250px;
+      }
+      a:nth-child(1) {
+        padding-left: 170px;
+      }
     }
-}    
-.logo_container {
-    position: absolute;
-    padding-top: 35px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    height: 100px;
   }
-
-.cartWidgetClass{
-    transform: translate(-40%, -50%);
-    position: absolute;
-    padding-top: 15px;
-    left: 66%;
-    width: 85px;
-    height: 85px;
+}
+.logo_container {
+  position: absolute;
+  padding-top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
 }

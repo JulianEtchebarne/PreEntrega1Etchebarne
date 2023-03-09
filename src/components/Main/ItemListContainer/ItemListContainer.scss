@@ -1,13 +1,15 @@
-div ul{
-    list-style: none;
-    li{
-        display: inline-block;
-        margin-right: 90px;
-    }
+div ul {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-right: 90px;
+  }
 }
-.contenedorSection{
-    background-color: #D3CDBF;
-    padding: 100px;
-    margin: 0px;
-    display:flex;
+.contenedorSection {
+  background-color: #d3cdbf;
+  padding: 100px;
+  margin: 0px;
+  display: flex;
 }
