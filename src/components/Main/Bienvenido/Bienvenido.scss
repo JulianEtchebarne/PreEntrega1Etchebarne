@@ -1,29 +1,27 @@
-main {
-  section {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
+section {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
 
-    img {
-      margin-left: auto;
-      margin-right: auto;
-    }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    h1 {
-      position: absolute;
-      top: 30%;
-      left: 35%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 50px;
-    }
-    h2 {
-      position: absolute;
-      top: 50%;
-      left: 35%;
-      transform: translate(-50%, -50%);
-      color: white;
-    }
+  h1 {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+  }
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
 }
 .imagenPrincipalFondo {
@@ -31,9 +29,4 @@ main {
   padding-left: 616px;
   height: 49rem;
   background-color: #121212;
-}
-.prueba {
-  background-color: #121212;
-  width: 100%;
-  text-align: center;
 }

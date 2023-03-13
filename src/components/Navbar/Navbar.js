@@ -1,20 +1,21 @@
 import "./Navbar.scss";
 import { CartWidget } from "./CartWidget/CartWidget";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <header>
       <div className="header_container">
         <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Catálogo</a>
-          <a href="#">Tabaquería</a>
+          <Link to="/">Inicio</Link>
+          <Link to="/catalogo">Catálogo</Link>
+          <Link to="/tabaqueria">Tabaquería</Link>
           <div className="logo_container">
             <img src="logo512.png" alt="Logo" />
           </div>
-          <a href="#">Coctelería</a>
-          <a href="#">Puntos de venta</a>
-          <a href="#">Contacto</a>
+          <Link to="cocteleria">Coctelería</Link>
+          <Link to="puntosdeventa">Puntos de venta</Link>
+          <Link to="contacto">Contacto</Link>
           <CartWidget />
         </nav>
       </div>

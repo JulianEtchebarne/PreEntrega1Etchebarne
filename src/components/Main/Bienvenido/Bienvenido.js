@@ -3,7 +3,7 @@ import "./Bienvenido.scss";
 export const Bienvenido = ({ greeting }) => {
   return (
     <div>
-      <section class="prueba">
+      <section>
         <img
           src="imagenesInicio/fondo.png"
           className="imagenPrincipalFondo"

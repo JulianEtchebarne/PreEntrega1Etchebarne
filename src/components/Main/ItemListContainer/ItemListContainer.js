@@ -1,19 +1,30 @@
 import "./ItemListContainer.scss";
+import { useState, useEffect } from "react";
+import { pedirDatos } from "../../../helpers/pedirDatos";
+import { useParams } from "react-router-dom";
+import ItemList from "../ItemList/ItemList";
 
 export const ItemListContainer = () => {
+  const [productos, setProductos] = useState([]);
+  const { itemId } = useParams();
+
+  useEffect(() => {
+    pedirDatos()
+      .then((response) => {
+        setProductos(response);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, [itemId]);
+
   return (
-    <div className="contenedorSection">
-      <ul>
-        <li>
-          <img src="imagenesInicio/whisky4.png"></img>
-        </li>
-        <li>
-          <img src="imagenesInicio/whisky3.png"></img>
-        </li>
-        <li>
-          <img src="imagenesInicio/whisky5.png"></img>
-        </li>
-      </ul>
+    <div>
+      <div className="flex bg-custom-gris p-100">
+        <ul>
+          <ItemList items={productos} />
+        </ul>
+      </div>
     </div>
   );
 };

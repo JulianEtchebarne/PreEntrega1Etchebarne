@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '100': '100px',
+      },
+      colors: {
+        "custom-gris": "#d3cdbf",
+      },
+    },
   },
   plugins: [require("prettier-plugin-tailwindcss")],
 };
